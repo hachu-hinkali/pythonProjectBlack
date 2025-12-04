@@ -1,0 +1,111 @@
+{
+  "game": {
+    "title": "Blackjack Classic",
+    "version": "1.0",
+    "screen_width": 1000,
+    "screen_height": 700,
+    "fps": 60,
+    "starting_balance": 500,
+    "min_bet": 10,
+    "max_bet": 500,
+    "dealer_stand_value": 17,
+    "blackjack_payout": 1.5
+  },
+  "colors": {
+    "background": [
+      34,
+      139,
+      34
+    ],
+    "table_border": [
+      139,
+      69,
+      19
+    ],
+    "text_white": [
+      255,
+      255,
+      255
+    ],
+    "text_black": [
+      0,
+      0,
+      0
+    ],
+    "text_gold": [
+      255,
+      215,
+      0
+    ],
+    "card_background": [
+      255,
+      255,
+      255
+    ],
+    "card_border": [
+      0,
+      0,
+      0
+    ],
+    "button_normal": [
+      0,
+      100,
+      0
+    ],
+    "button_hover": [
+      0,
+      150,
+      0
+    ],
+    "button_disabled": [
+      100,
+      100,
+      100
+    ]
+  },
+  "card_suits": {
+    "hearts": "♥",
+    "diamonds": "♦",
+    "clubs": "♣",
+    "spades": "♠"
+  },
+  "card_values": {
+    "A": 11,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "J": 10,
+    "Q": 10,
+    "K": 10
+  },
+  "difficulty": {
+    "easy": {
+      "decks": 1,
+      "starting_balance": 1500,
+      "max_bet": 1000
+    },
+    "medium": {
+      "decks": 4,
+      "starting_balance": 1000,
+      "max_bet": 500
+    },
+    "hard": {
+      "decks": 6,
+      "starting_balance": 500,
+      "max_bet": 500
+    }
+  },
+  "stats": {
+    "total_games": 34,
+    "wins": 12,
+    "losses": 20,
+    "blackjacks": 1,
+    "highest_balance": 1600
+  }
+}
